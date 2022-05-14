@@ -11,37 +11,103 @@
 </head>
 <body>
     <!-- leapyear -->
-    <div class="text-center mt-4">
+    <div class="text-center bg-info p-4">
         <h5>leap Year</h5>
         <input type="number" id="number" placeholder="Enter any Year">
         
-        <button type="button" onclick="leapYearFunction()" class="btn btn-primary">Click</button>
+        <button type="button" onclick="leapYearFunction()" class="btn btn-primary">
+            submit
+        </button>
         <p id="result"></p>
 
-    </div>
+    </div><hr>
     
     <!-- Inch to foot -->
-    <div class="text-center mt-4">
+    <div class="text-center bg-info p-4">
         <h5>Inch to Foot</h5>
         <input type="number" id="inch" placeholder="Enter any Inch Value">
         
-        <button type="button" onclick="footFunction()" class="btn btn-primary"> Click </button>
+        <button type="button" onclick="footFunction()" class="btn btn-primary">
+             submit
+        </button>
         <p id="result2"></p>
 
-    </div>
+    </div><hr>
+    
+    <!-- input a array method  -->
+   
+    <div class="text-center bg-info p-4">
+        <h5>Array Max value</h5>
+        <p> Number = [52,20,63,14,60] </p> 
+        <button type="button" onclick="arrayFunction()" class="btn btn-primary">
+            submit
+       </button>
+     
+        <br>
+    
+        <p id="result3"></p>
+      
+
+    </div><hr>
+
+    <!-- feet to mile convert -->
+    <div class="text-center bg-info p-4">
+        <h5>Feet to Mile Convert</h5>
+        <input type="number" id="feet" placeholder="Enter any Feet">
+        
+        <button type="button" onclick="mileFunction()" class="btn btn-primary">
+             submit
+        </button>
+        <p id="result4"></p>
+
+    </div><hr>
+
+
+    <!-- chear , table and bed total wood  -->
+    
+    <div class="text-center bg-info p-4">
+        <h5>Cheer,Table and  Bed Total Wood cubic </h5>
+        <label>Enter Your Total Cheer number : </label>
+        <input type="number" id="cheer" placeholder="Enter cheer"><br>
+        <label>Enter Your Total table number : </label>
+        <input type="number" id="table" placeholder="Enter table"><br>
+        <label>Enter Your Total Bed number : </label>
+        <input type="number" id="bed" placeholder="Enter bed"><br>
+        <p>Total cubic feet wood : <span id="result5"></span></p>
+        <br>
+        <button type="button" onclick="woodfunction()" class="btn btn-primary">
+             submit
+        </button>
+        
+
+    </div><hr>
+<!-- brick calculator  -->
+    
+<div class="text-center bg-info p-4">
+    <h5>Billding Bricks Calculator</h5>
+    <label>Enter your floor : </label>
+    <input type="number" id="brick" placeholder="Enter Your Floor"><br>
+    <p>Total Brick need your bullding : <span id="result6"></span></p>
+    <br>
+    <button type="button" onclick="bricksfunction()" class="btn btn-primary">
+         submit
+    </button>
     
 
+</div><hr>
 
   
     
  <!-- js File -->
     <script src="leapyear.js"></script>
     <script src="inchToFoot.js"></script>
+    <script src="arryMaxVlaue.js"></script>
+    <script src="assinment/feetToMile.js"></script>
+    <script src="assinment/woodCalculator.js"></script>
+    <script src="assinment/brickCalculator.js"></script>
 
 
-
-
-    <!-- js Bootstarap -->
+    <!-- js bootstrap's -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

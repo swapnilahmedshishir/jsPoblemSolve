@@ -2,7 +2,7 @@
 function footFunction(){
 
     let inch = document.getElementById('inch').value;
-    console.log(inch);
+    // console.log(inch);
     
     function convertInches(inch){
         let foot = inch / 12;
