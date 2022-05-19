@@ -1,6 +1,6 @@
 
 
-function leapYearFunction(){
+    function leapYearFunction(){
 
     let Year = document.getElementById('number').value;
     console.log(Year);
@@ -9,9 +9,10 @@ function leapYearFunction(){
             document.getElementById('result').innerHTML = (Year + " is a leap Year"); 
         } else{
             document.getElementById('result').innerHTML = (Year + " is not a leap Year");
+        
         }
     }
     leapYear(Year);
 
 
-}
+    }
