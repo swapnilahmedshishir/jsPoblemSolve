@@ -5,3 +5,7 @@ p{
     padding: 10px;
    
 }
+
+.class_item {
+    cursor: pointer;
+}
