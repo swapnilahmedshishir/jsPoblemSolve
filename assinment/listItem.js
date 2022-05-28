@@ -14,6 +14,7 @@ document.getElementById('btn').addEventListener('click',function(){
     
      parentItem.appendChild(childItem);
     
+     document.getElementById('item_add').value = "" ;
 });
 
 document.getElementById('mylist').addEventListener('click',function(event){
